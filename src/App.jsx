@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard.jsx";
 
 // http://www.omdbapi.com/?i=tt3896198&apikey=b24ef25a
 const App = () => {
-    const API_URL = `http://www.omdbapi.com/?apikey=b24ef25a`
+    const API_URL = `https://www.omdbapi.com/?apikey=b24ef25a`
     const [searchTerm, setSearchTerm] = useState('One Piece');
     const [movies, setMovies] = useState([]);
 
